@@ -5,24 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="../../js/base.js"></script>
-    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../static/css/homework.css">
+    <script src="../../static/js/base.js"></script>
+    <script src="../../static/js/bottom.js"></script>
 
-    <link rel="stylesheet" href="../../css/homework.css">
-
-    <script src="../../js/bottom.js"></script>
-    <link rel="stylesheet" href="../../css/footer.css">
+    <title>homework</title>
 
 </head>
-
-<body>
-
-<div nav-include-path="../../templates/layout/navbar.html">
+<div nav-include-path="./navbar.html">
     <script>LoadNAVBAR();</script>
 </div>
+<body>
+
+
 
 <div class = "assignment_title_div">
-    <img src="../../img/book-btn.png" alt="book_btn" class="book_btn">
+    <img src="../../static/img/book-btn.png" alt="book_btn" class="book_btn">
     <h3 class="assignment_title">과제 제출</h3>
 </div>
 <div class="assignment_box">
@@ -53,7 +51,7 @@
 
 
         <div class="file_add_div">
-            <img src="../../img/file_clip.png" alt="file_clip" class="file_clip">
+            <img src="../../static/img/file_clip.png" alt="file_clip" class="file_clip">
             <label for="fileInput" class="file_add_title">파일 추가하기</label>
         </div>
 
@@ -63,11 +61,11 @@
                 <button>제출</button>
             </form>
         </div>
-        <script src="../../js/homework.js"></script>
+        <script src="../../static/js/homework.js"></script>
     </div>
 </div>
 </body>
-<div footer-include-path="../../templates/layout/footer.html">
+<div footer-include-path="../../templates/fragments/footer.html">
     <script>LoadFOOTER();</script>
 </div>
 

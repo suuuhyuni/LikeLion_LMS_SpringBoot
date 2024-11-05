@@ -5,16 +5,30 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../css/자기소개.css">
+
+    <script src="../../static/js/base.js"></script>
+
+    <link rel="stylesheet" href="../../static/css/navbar.css">
+    <link rel="stylesheet" href="../../static/css/자기소개.css">
+
+    <script src="../../static/js/bottom.js"></script>
+    <link rel="stylesheet" href="../../static/css/footer.css">
+
+    <title>aboutme</title>
 </head>
 <body>
-<nav class="readme">
+
+<div nav-include-path="../../templates/fragments/navbar.html">
+    <script>LoadNAVBAR();</script>
+</div>
+
+<div class="readme">
     <div class="title">
         <p class="title_letme">Let Me Introduce Myself</p>
     </div>
 
     <div class="me">
-        <p class="selfi"><img src="../../img/emoji.png" alt="suhyun" class="picture"></p>
+        <p class="selfi"><img src="../../static/img/emoji.png" alt="suhyun" class="picture"></p>
         <div class="name">
             <p class="myname">이름 : 권수현</p>
             <p class="nickname">닉네임 : 수아 (Sua)</p>
@@ -27,7 +41,8 @@
     <div class="extra">
         <div class="insta">
             <button class="insta_btn">
-                <a class="ins_btn" href="https://www.instagram.com/sxunniiii/"><img src="../../img/instagram.png" alt="sns" class="sns_i">
+                <a class="ins_btn" href="https://www.instagram.com/sxunniiii/">
+                    <img src="../../static/img/instagram.png" alt="sns" class="sns_i">
                 </a>
             </button>
             <a class="id" href="https://www.instagram.com/sxunniiii/">instagram : @sxunniiii</a>
@@ -35,14 +50,18 @@
 
         <div class="blog">
             <button class="b_btn">
-                <a class="blog_btn" href="https://blog.naver.com/suuuhyuni"><img src="../../img/blog.png" alt="sns" class="sns_2"></a>
+                <a class="blog_btn" href="https://blog.naver.com/suuuhyuni">
+                    <img src="../../static/img/blog.png" alt="sns" class="sns_2"></a>
             </button>
             <a class="account" href="https://blog.naver.com/suuuhyuni">blog : 권숭현</a>
         </div>
     </div>
-</nav>
+</div>
 
 
 
 </body>
+<div footer-include-path="../../templates/fragments/footer.html">
+    <script>LoadFOOTER();</script>
+</div>
 </html>
