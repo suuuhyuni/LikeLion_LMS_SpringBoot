@@ -36,6 +36,8 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 50px;
+    font-size: 39px;
+    color: #fe9519;
 }
 .lion{
     display: flex;
@@ -50,4 +52,62 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 50px;
+}
+.assginment_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    margin: 50px;
+
+}
+.assignment_submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border: 1px solid #3e3e3e;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.submit_title{
+    padding: 50px;
+    color: var(--color-orange-main);
+    font-size: 32px;
+    font-family: "Gmarket Sans";
+    text-decoration: none;
+}
+.assignment_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border: 1px solid #3e3e3e;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.assignment_list_title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--color-orange-main);
+    font-size: 32px;
+    font-family: "Gmarket Sans";
+    text-decoration: none;
+}
+.kau_insta{
+    display: flex;
+    align-items: center;
+
+    width: 1440px;
+    margin: 0px;
+    margin-left: 150px;
+    padding-right: 200px;
+}
+.sns_kau{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.kau_insta_title{
+    padding-left: 20px;
 }
